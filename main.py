@@ -153,6 +153,11 @@
 
 # task12
 # def space_weights(planet_a,weight,planet_b):
+
+
+
+
+
 # print(space_weights("Earth", 1, "Mars")) #➞ 0.38
 # print(space_weights("Earth", 1, "Jupiter"))# ➞ 2.53
 # print(space_weights("Earth", 1, "Neptune"))# ➞ 1.14
@@ -167,22 +172,22 @@
 # print(get_frequencies([])) #➞ {}
 
 # task13
-def oldest(lst):
-    old = max(lst,key=lst.get)
-    return old
-print(oldest({
-  "Emma": 71,
-  "Jack": 45,
-  "Amy": 15,
-  "Ben": 29
-})) #➞ "Emma"
-
-print(oldest({
-  "Max": 9,
-  "Josh": 13,
-  "Sam": 48,
-  "Anne": 33
-})) #➞ "Sam"
+# def oldest(lst):
+#     old = max(lst,key=lst.get)
+#     return old
+# print(oldest({
+#   "Emma": 71,
+#   "Jack": 45,
+#   "Amy": 15,
+#   "Ben": 29
+# })) #➞ "Emma"
+#
+# print(oldest({
+#   "Max": 9,
+#   "Josh": 13,
+#   "Sam": 48,
+#   "Anne": 33
+# })) #➞ "Sam"
 # task14
 # def topnote(dict):
 #     a = max(dict.get("notes"))
@@ -213,3 +218,8 @@ print(oldest({
 #   "sell_price": 7.95,
 #   "inventory": 8500
 # })) #➞ 44030
+
+
+
+
+
